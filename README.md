@@ -8,8 +8,8 @@ The program has a prediction class that basically rebuilds the .net Random class
 ## Example:
 ```cs
 Random r = new Random();
-Prediction p = new Prediction(p);
-p.Print(0, 100000);
+Prediction p = new Prediction(r);
+p.Predict(0, 100000);
 //Output:
 //----------PREDICTION----------
 //Random.Next() = 1993566476
